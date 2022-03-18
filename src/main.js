@@ -1,4 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+import Vuikit from 'vuikit'
+import VuikitIcons from '@vuikit/icons'
+import '@vuikit/theme'
+
+createApp(App)
+  .use(Vuikit, VuikitIcons)
+  .mount('#app')
