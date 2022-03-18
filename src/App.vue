@@ -1,10 +1,14 @@
 <template>
-  <div>
-    <router-link to="/">Home</router-link> |
-    <!-- <router-link to="/about">About</router-link> -->
+  <vs-navbar></vs-navbar>
+  <div class="container mt-2">
+    <router-view/>
   </div>
-  <router-view/>
 </template>
 
-<style>
-</style>
+<script>
+import VsNavbar from './components/vs-navbar.vue'
+
+export default {
+  components: {VsNavbar}
+}
+</script>

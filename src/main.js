@@ -1,11 +1,11 @@
+import "bootstrap/dist/css/bootstrap.min.css"
 import { createApp } from 'vue'
 import App from './App.vue'
-
-import Vuikit from 'vuikit'
-import VuikitIcons from '@vuikit/icons'
-import '@vuikit/theme'
 import router from './router'
+import store from './store'
 
 createApp(App)
-  .use(router, Vuikit, VuikitIcons)
+  .use(router, store)
   .mount('#app')
+
+import "bootstrap/dist/js/bootstrap.js"
