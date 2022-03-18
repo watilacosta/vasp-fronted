@@ -1,33 +1,23 @@
 <template>
-  <!-- <nav class="navbar-expand-lg navbar-light bg-light m-0">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="../assets/images/299x65.png" alt="logotipo vasp virtual" class="d-inline-block align-text-top m-0 p-0">
-      </a>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <div class="d-flex w-auto">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <router-link to="/" class="nav-link">Home</router-link>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </nav> -->
-
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="../assets/images/299x65.png" alt="logotipo vasp virtual" class="d-inline-block align-text-top m-0 p-0">
+      <a class="navbar-brand" href="!#">
+        <img src="../assets/images/299x65.png" alt="logotipo vasp virtual"
+          class="d-inline-block align-text-top m-0 p-0">
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="d-flex w-auto">
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <router-link to="/" class="nav-link">Home</router-link>
+            <router-link to="/pilots" class="nav-link">Pilots</router-link>
           </div>
         </div>
       </div>
