@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container">
       <router-link to="/" class="navbar-brand">
         <img src="../assets/images/299x65.png"
@@ -19,9 +19,9 @@
           <div class="navbar-nav">
             <router-link to="/" class="nav-link">Home</router-link>
             <router-link to="/pilots" class="nav-link">Pilots</router-link>
-            <router-link to="/rules" class="nav-link">Rules and Regulation</router-link>
             <router-link to="/staff" class="nav-link">Staff</router-link>
             <router-link to="/statistics" class="nav-link">Statistics</router-link>
+            <router-link to="/rules" class="nav-link">VA Rules & Regulation</router-link>
           </div>
         </div>
       </div>
