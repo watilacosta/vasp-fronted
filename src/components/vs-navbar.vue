@@ -1,10 +1,11 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <a class="navbar-brand" href="#!">
-        <img src="../assets/images/299x65.png" alt="logotipo vasp virtual"
+      <router-link to="/" class="navbar-brand">
+        <img src="../assets/images/299x65.png"
+          alt="logotipo vasp virtual"
           class="d-inline-block align-text-top m-0 p-0">
-      </a>
+      </router-link>
       <button class="navbar-toggler" type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarNavAltMarkup"

@@ -10,22 +10,22 @@ const routes = [
   {
     path: '/pilots',
     name: 'Pilots',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Pilots.vue')
+    component: () => import(/* webpackChunkName: "pilots" */ '../views/Pilots.vue')
   },
   {
     path: '/rules',
     name: 'Rules',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Rules.vue')
+    component: () => import(/* webpackChunkName: "rules" */ '../views/Rules.vue')
   },
   {
     path: '/staff',
     name: 'Staff',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Staff.vue')
+    component: () => import(/* webpackChunkName: "staff" */ '../views/Staff.vue')
   },
   {
     path: '/statistics',
     name: 'Statistics',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Statistics.vue')
+    component: () => import(/* webpackChunkName: "statistics" */ '../views/Statistics.vue')
   }
 ]
 

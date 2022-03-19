@@ -20,13 +20,15 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex'
+
 export default {
   name: 'Pilots',
   components: {},
   computed: {
-    pilots() {
-      return this.$store.getters.listPilots
-    }
+    ...mapGetters({
+      pilots: 'listPilots'
+    })
   }
 }
 </script>
