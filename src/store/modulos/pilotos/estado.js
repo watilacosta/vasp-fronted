@@ -1,3 +1,6 @@
+import pilots from "../../../services/pilots";
+
 export default {
-  pilots: ['Wátila','Cláudio','Peter'],
+  pilots: pilots.list(),
 }
+
