@@ -1,12 +1,8 @@
 import { createStore } from 'vuex'
+import Pilotos from './modulos/pilotos'
 
 export default createStore({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    Pilotos
   }
 })

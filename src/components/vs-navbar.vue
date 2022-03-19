@@ -20,7 +20,7 @@
             <router-link to="/pilots" class="nav-link">Pilots</router-link>
             <router-link to="/rules" class="nav-link">Rules and Regulation</router-link>
             <router-link to="/staff" class="nav-link">Staff</router-link>
-            <router-link to="/stastitics" class="nav-link">Statistics</router-link>
+            <router-link to="/statistics" class="nav-link">Statistics</router-link>
           </div>
         </div>
       </div>

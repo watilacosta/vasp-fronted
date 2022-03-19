@@ -1,6 +1,6 @@
 <template>
   <vs-navbar></vs-navbar>
-  <div class="container mt-2">
+  <div class="container my-4">
     <router-view/>
   </div>
 </template>
