@@ -1,10 +1,8 @@
 <template>
   <header>
     <!-- Background image -->
-    <div
-      class="p-5 text-center bg-image"
-      style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp'); height: 600px;">
-      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+    <div class="p-5 text-center bg-image">
+      <div class="mask p-4">
         <div class="d-flex justify-content-center align-items-center h-100">
           <div class="text-white">
             <h1 class="mb-3">Vasp Virtual Airlines</h1>
@@ -24,3 +22,13 @@ export default {
   name: 'vs-header'
 }
 </script>
+<style scoped>
+  .mask {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .bg-image {
+    background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
+    height: 500px;
+    margin-bottom: 4em;
+  }
+</style>

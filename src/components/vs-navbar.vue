@@ -4,6 +4,8 @@
       <router-link to="/" class="navbar-brand">
         <img src="../assets/images/299x65.png"
           alt="logotipo vasp virtual"
+          height="40"
+          width="180"
           class="d-inline-block align-text-top m-0 p-0">
       </router-link>
       <button class="navbar-toggler" type="button"
