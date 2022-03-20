@@ -9,13 +9,13 @@
       frameborder="0"
       name="CRvxTFNVnJSu1647637401"></iframe>
 
-      <h1 class="display-6 text-muted text-center mb-2">Airlines Ranks</h1>
-      <iframe src="https://uesva.com:3008/addons/iframe?uid=QlBrUU0xcGtvRnFSSDl6WDczR1VRMzFwdm9GQmdOWEx5MzlLakMyczM3UmtLRHNGSE9hL0V3PT0="
-        scrolling="no"
-        width="100%"
-        height="300"
-        frameborder="0"
-        name="GJRcyJhuEdXTQ1647695184"></iframe>
+    <h1 class="display-6 text-muted text-center mb-2">Airlines Ranks</h1>
+    <iframe src="https://uesva.com:3008/addons/iframe?uid=QlBrUU0xcGtvRnFSSDl6WDczR1VRMzFwdm9GQmdOWEx5MzlLakMyczM3UmtLRHNGSE9hL0V3PT0="
+      scrolling="no"
+      width="100%"
+      height="300"
+      frameborder="0"
+      name="GJRcyJhuEdXTQ1647695184"></iframe>
   </div>
 </template>
 
