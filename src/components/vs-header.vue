@@ -7,7 +7,7 @@
           <div class="text-white">
             <h1 class="mb-3">Vasp Virtual Airlines</h1>
             <h4 class="mb-3">Viaje bem, Viaje Vasp Virtual</h4>
-            <router-link to="/" class="btn btn-outline-light btn-lg" role="button">Join Us</router-link>
+            <router-link to="/join-us" class="btn btn-outline-light btn-lg" role="button">Join us</router-link>
 
           </div>
         </div>
@@ -25,9 +25,14 @@ export default {
 <style scoped>
   .mask {
     background-color: rgba(0, 0, 0, 0.6);
+    height: 300px;
+    margin-top: 2.5rem;
   }
   .bg-image {
-    background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');
+    background-image: url('../assets/images/cover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 500px;
     margin-bottom: 4em;
   }
