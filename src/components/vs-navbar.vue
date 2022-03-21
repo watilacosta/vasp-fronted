@@ -19,11 +19,12 @@
       <div class="d-flex w-auto">
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <router-link to="/" class="nav-link">Home</router-link>
-            <router-link to="/pilots" class="nav-link">Pilots</router-link>
+            <router-link to="/" class="nav-link">{{ $t('menus.home') }}</router-link>
+            <router-link to="/pilots" class="nav-link">{{ $t('menus.pilots') }}</router-link>
             <router-link to="/staff" class="nav-link">Staff</router-link>
-            <router-link to="/statistics" class="nav-link">Statistics</router-link>
-            <router-link to="/rules" class="nav-link">VA Rules & Regulation</router-link>
+            <router-link to="/statistics" class="nav-link">{{ $t('menus.statistics') }}</router-link>
+            <router-link to="/rules" class="nav-link">{{ $t('menus.rules') }}</router-link>
+            <locale-switcher></locale-switcher>
           </div>
         </div>
       </div>
@@ -32,7 +33,9 @@
 </template>
 
 <script>
+import LocaleSwitcher from './LocaleSwitcher.vue'
 export default {
+  components: { LocaleSwitcher },
   name: 'vs-navbar'
 }
 </script>

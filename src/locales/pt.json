@@ -1,0 +1,32 @@
+{
+  "menus": {
+    "home": "Início",
+    "pilots": "Pilotos",
+    "statistics": "Estatísticas",
+    "rules": "Regras & Regulamentos"
+  },
+  "footer": "Vasp Linhas Aéreas Virtuais - desde 2008",
+  "home-page": {
+    "va-name": "Vasp Linhas Aéreas Virtuais",
+    "slogan": "Viaje bem, Viaje Vasp Virtual",
+    "btn-join": "Inscreva-se",
+    "titles": {
+      "online-flights": "Voos Online",
+      "rank": "Patentes"
+    }
+  },
+  "page-pilots": {
+    "title": "Pilotos",
+    "table": {
+      "th": {
+        "callsign": "Indicativo",
+        "name": "Nome",
+        "rating": "Patente",
+        "join-date": "Data de Inscrição",
+        "flight-hours": "Horas de voo",
+        "last-flight": "Último voo",
+        "country": "País"
+      }
+    }
+  }
+}

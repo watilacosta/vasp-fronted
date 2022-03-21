@@ -1,3 +1,5 @@
+import "bootstrap/dist/js/bootstrap.js"
+import i18n from './i18n'
 import "bootstrap/dist/css/bootstrap.min.css"
 import { createApp } from 'vue'
 import App from './App.vue'
@@ -8,6 +10,3 @@ createApp(App).use(i18n)
   .use(router)
   .use(store)
   .mount('#app')
-
-import "bootstrap/dist/js/bootstrap.js"
-import i18n from './i18n'

@@ -1,6 +1,6 @@
 <template>
   <footer class="footer navbar-fixed-bottom bg-light">
-    Vasp Virtual Airlines - since 2008
+    {{ $t('footer') }}
   </footer>
 </template>
 

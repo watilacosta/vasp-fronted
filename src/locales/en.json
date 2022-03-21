@@ -1,3 +1,32 @@
 {
-  "message": "hello i18n !!"
+  "menus": {
+    "home": "Home",
+    "pilots": "Pilots",
+    "statistics": "Statistics",
+    "rules": "VA Rules & Regulation"
+  },
+  "footer": "Vasp Virtual Airlines - since 2008",
+  "home-page": {
+    "va-name": "Vasp Virtual Airlines",
+    "slogan": "Travel well, Travel Vasp Virtual",
+    "btn-join": "Join us",
+    "titles": {
+      "online-flights": "Online Flights",
+      "rank": "Airlines Ranks"
+    }
+  },
+  "page-pilots": {
+    "title": "Pilots Roster",
+    "table": {
+      "th": {
+        "callsign": "Callsign",
+        "name": "Name",
+        "rating": "Rating",
+        "join-date": "Join Date",
+        "flight-hours": "Flight hours",
+        "last-flight": "Last Flight",
+        "country": "Country"
+      }
+    }
+  }
 }

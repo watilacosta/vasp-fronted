@@ -5,10 +5,11 @@
       <div class="mask p-4">
         <div class="d-flex justify-content-center align-items-center h-100">
           <div class="text-white">
-            <h1 class="mb-3">Vasp Virtual Airlines</h1>
-            <h4 class="mb-3">Viaje bem, Viaje Vasp Virtual</h4>
-            <router-link to="/join-us" class="btn btn-outline-light btn-lg" role="button">Join us</router-link>
-
+            <h1 class="mb-3">{{ $t('home-page.va-name') }}</h1>
+            <h4 class="mb-3">{{ $t('home-page.slogan') }}</h4>
+            <router-link to="/join-us"
+              class="btn btn-outline-light btn-lg"
+              role="button">{{ $t('home-page.btn-join') }}</router-link>
           </div>
         </div>
       </div>

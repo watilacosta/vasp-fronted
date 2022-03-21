@@ -1,19 +1,19 @@
 <template>
   <div class="pilots">
-    <h1 class="display-6 text-muted text-center mb-4">Pilots Roster</h1>
+    <h1 class="display-6 text-muted text-center mb-4">{{ $t('page-pilots.title') }}</h1>
     <div class="table-responsive">
       <table class="table table-bordered table-hover table-striped">
         <thead class="table-dark">
           <tr class="text-center">
-            <th scope="col">Callsign</th>
-            <th scope="col">Name</th>
-            <th scope="col">Rating</th>
+            <th scope="col">{{ $t('page-pilots.table.th.callsign') }}</th>
+            <th scope="col">{{ $t('page-pilots.table.th.name') }}</th>
+            <th scope="col">{{ $t('page-pilots.table.th.rating') }}</th>
             <th scope="col">IVAO</th>
             <th scope="col">VATSIM</th>
-            <th scope="col">Join Date</th>
-            <th scope="col">Flight Hours</th>
-            <th scope="col">Last Flight</th>
-            <th scope="col">Country</th>
+            <th scope="col">{{ $t('page-pilots.table.th.join-date') }}</th>
+            <th scope="col">{{ $t('page-pilots.table.th.flight-hours') }}</th>
+            <th scope="col">{{ $t('page-pilots.table.th.last-flight') }}</th>
+            <th scope="col">{{ $t('page-pilots.table.th.country') }}</th>
           </tr>
         </thead>
         <tbody>
