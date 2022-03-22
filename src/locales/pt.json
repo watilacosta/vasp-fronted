@@ -28,5 +28,36 @@
         "country": "País"
       }
     }
+  },
+  "page-staff": {
+    "title": "Diretoria",
+    "table": {
+      "th": {
+        "title": "Cargo",
+        "insignia": "Insignia",
+        "callsign": "Indicativo de Chamada",
+        "name": "Nome"
+      }
+    }
+  },
+  "page-statistic": {
+    "title": "Estatísticas",
+    "active-pilots": "Pilotos ativos",
+    "miles-flown": "Milhas Voadas",
+    "total-flights": "Total de voos",
+    "passengers-transported": "Total de passageiros transportados"
+  },
+  "page-rules": {
+    "title": "Regras & Regulamentos",
+    "rules": {
+      "1": "Todos os voos da Vasp são realizados ONLINE nas Redes VATSIM ou IVAO;",
+      "2": "Após a VA, o tripulante deverá realizar seu primeiro voo no prazo máximo de 15 (quinze) dias corridos. O descumprimento desta regra implicará em exclusão, inscrição;",
+      "3": "O piloto deve respeitar seu Rating, voando com a aeronave compatível com sua licença;",
+      "4": "Usamos Simuladores FS2004, FSX, Prepar3d, Xplane 11 e FS2020",
+      "5": "Os pilotos devem utilizar o Aplicativo 'UESVA' ​​para reportar voos. O piloto da Vasp Virtual deve se cadastrar no site 'UESVA', bem como baixar o 'Acars CLient' no site 'www.uesva.com'. ",
+      "6": "Todos os componentes do Vasp Virtual devem seguir as regras das Redes que estão voando. Qualquer problema no âmbito das Redes de Simulação deve ser previamente comunicado aos respectivos gestores de cada Rede;",
+      "7": "O acesso ao Virtual Vasp é realizado através de um teste com 10 questões de múltipla escolha onde avaliaremos conhecimentos básicos sobre simulação e navegação;",
+      "8": "Nosso Plano de Carreira consiste em 3 Ratings que serão obtidos de acordo com as horas de voo do piloto dentro do VA."
+    }
   }
 }
