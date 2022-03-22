@@ -24,18 +24,37 @@
             <router-link to="/staff" class="nav-link">Staff</router-link>
             <router-link to="/statistics" class="nav-link">{{ $t('menus.statistics') }}</router-link>
             <router-link to="/rules" class="nav-link">{{ $t('menus.rules') }}</router-link>
-            <locale-switcher></locale-switcher>
           </div>
         </div>
+        <img
+          @click="translate('pt')"
+          src="../assets/images/icons/brasil.png"
+          class="mt-1 p-1 flag"
+        />
+        <img
+          @click="translate('en')"
+          src="../assets/images/icons/us.png"
+          class="mt-1 p-1 flag"
+        />
       </div>
     </div>
   </nav>
 </template>
 
 <script>
-import LocaleSwitcher from './LocaleSwitcher.vue'
+
 export default {
-  components: { LocaleSwitcher },
-  name: 'vs-navbar'
+  name: 'vs-navbar',
+  methods: {
+    translate(language) {
+      this.$i18n.locale = language
+    }
+  }
 }
 </script>
+<style scoped>
+  .flag {
+    width: 2rem;
+    height: 2rem;
+  }
+</style>
