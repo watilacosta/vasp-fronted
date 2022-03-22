@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow">
     <div class="container">
       <router-link to="/" class="navbar-brand">
         <img src="../assets/images/299x65.png"
@@ -28,13 +28,15 @@
         </div>
         <img
           @click="translate('pt')"
+          :style="{ width: flagSize, height: flagSize }"
           src="../assets/images/icons/brasil.png"
-          class="mt-1 p-1 flag"
+          class="m-1"
         />
         <img
           @click="translate('en')"
+          :style="{ width: flagSize, height: flagSize }"
           src="../assets/images/icons/us.png"
-          class="mt-1 p-1 flag"
+          class="mt-1"
         />
       </div>
     </div>
@@ -49,12 +51,17 @@ export default {
     translate(language) {
       this.$i18n.locale = language
     }
-  }
+  },
+  data() {
+    return {
+      flagSize: '1.8rem'
+    }
+  },
 }
 </script>
 <style scoped>
   .flag {
-    width: 2rem;
-    height: 2rem;
+    width: 1.8rem;
+    height: 1.8rem;
   }
 </style>
