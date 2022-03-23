@@ -1,5 +1,5 @@
 <template>
-  <div class="onlin-flights">
+  <div class="online-flights">
     <h1 class="display-6 text-muted text-center my-4">{{ $t('home-page.titles.online-flights') }}</h1>
     <iframe src="https://uesva.com:3008/addons/iframe?uid=a0hhOElLYkxkbkdjNXowcXdxdCtudWV2RzNzRExBTmIxV0x0NUd3dWhhVT0="
       scrolling="no"
@@ -15,3 +15,8 @@ export default {
   name: 'online-flights'
 }
 </script>
+<style scoped>
+.online-flights {
+  margin-top: 4rem;
+}
+</style>
