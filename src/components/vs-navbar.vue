@@ -31,13 +31,13 @@
           :style="{ width: flagSize, height: flagSize }"
           src="../assets/images/icons/brasil.png"
           class="m-1"
-        />
+         alt="bandeira do brasil"/>
         <img
           @click="translate('en')"
           :style="{ width: flagSize, height: flagSize }"
           src="../assets/images/icons/us.png"
           class="mt-1"
-        />
+         alt="bandeira dos eua"/>
       </div>
     </div>
   </nav>
@@ -54,7 +54,8 @@ export default {
   },
   data() {
     return {
-      flagSize: '1.8rem'
+      flagSize: '1.8rem',
+      hover: false,
     }
   },
 }

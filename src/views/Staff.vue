@@ -8,7 +8,7 @@
             <th scope="col">{{ $t('page-staff.table.th.name') }}</th>
             <th scope="col">{{ $t('page-staff.table.th.callsign') }}</th>
             <th scope="col">{{ $t('page-staff.table.th.title') }}</th>
-            <th scope="col">{{ $t('page-staff.table.th.insignia') }}</th>
+            <th scope="col">{{ $t('page-staff.table.th.email') }}</th>
           </tr>
         </thead>
         <tbody>
@@ -16,7 +16,7 @@
             <td>{{ staff.name }}</td>
             <td>{{ staff.callsign }}</td>
             <td>{{ staff.title }}</td>
-            <td><img :src="staff.img0" :title="staff.title" height="30" width="70"></td>
+            <td>{{ staff.staffMail }}</td>
           </tr>
         </tbody>
       </table>

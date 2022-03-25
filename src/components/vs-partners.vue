@@ -6,7 +6,7 @@
 
     <div class="d-flex justify-content-evenly">
       <a href="https://www.vatsim.net/" target="_blank">
-        <img class="img-partners" src="../assets/images/vatsim.png" />
+        <img src="../assets/images/vatsim.png" />
       </a>
       <a href="https://www.voeclimb.com/welcome/" target="_blank">
         <img class="img-partners climb" src="../assets/images/climb.png" />
