@@ -25,19 +25,22 @@
             <router-link to="/statistics" class="nav-link">{{ $t('menus.statistics') }}</router-link>
             <router-link to="/rules" class="nav-link">{{ $t('menus.rules') }}</router-link>
           </div>
+          <img
+            @click="translate('pt')"
+            :style="{ width: flagSize, height: flagSize }"
+            src="../assets/images/icons/brasil.png"
+            class="mx-1"
+           alt="bandeira do brasil"/>
+          <img
+            @click="translate('en')"
+            :style="{ width: flagSize, height: flagSize }"
+            src="../assets/images/icons/us.png"
+            class=""
+           alt="bandeira dos eua"/>
+          <router-link to="/join-us" class="btn btn-sm btn-info text-white ms-3" type="button">
+            {{ $t('home-page.btn-join') }}
+          </router-link>
         </div>
-        <img
-          @click="translate('pt')"
-          :style="{ width: flagSize, height: flagSize }"
-          src="../assets/images/icons/brasil.png"
-          class="m-1"
-         alt="bandeira do brasil"/>
-        <img
-          @click="translate('en')"
-          :style="{ width: flagSize, height: flagSize }"
-          src="../assets/images/icons/us.png"
-          class="mt-1"
-         alt="bandeira dos eua"/>
       </div>
     </div>
   </nav>
@@ -54,15 +57,9 @@ export default {
   },
   data() {
     return {
-      flagSize: '1.8rem',
+      flagSize: '1.6rem',
       hover: false,
     }
   },
 }
 </script>
-<style scoped>
-  .flag {
-    width: 1.8rem;
-    height: 1.8rem;
-  }
-</style>
