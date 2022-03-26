@@ -15,7 +15,7 @@
           <tr class="text-center" v-for="(staff, id) in staffs" :key="id">
             <td>{{ staff.name }}</td>
             <td>{{ staff.callsign }}</td>
-            <td>{{ staff.title }}</td>
+            <td>{{ staff.title.toUpperCase() }}</td>
             <td>{{ staff.staffMail }}</td>
           </tr>
         </tbody>
