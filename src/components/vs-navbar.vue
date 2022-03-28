@@ -37,12 +37,9 @@
             src="../assets/images/icons/us.png"
             class=""
            alt="bandeira dos eua"/>
-          <!-- <router-link to="/join-us" class="btn btn-sm btn-info text-white ms-3" type="button">
+          <router-link to="/join-us" class="btn btn-sm btn-info text-white ms-3" type="button">
             {{ $t('home-page.btn-join') }}
-          </router-link> -->
-          <a href="https://www.uesva.com/new/pilot" class="btn btn-sm btn-info text-white ms-3">
-            {{ $t('home-page.btn-join') }}
-          </a>
+          </router-link>
         </div>
       </div>
     </div>
