@@ -33,7 +33,9 @@
             <td>{{ pilot.dataAirline.registeredDate }}</td>
             <td>{{ pilot.dataAirline.totalHoursFlights }}</td>
             <td>{{ pilot.dataAirline.lastFlightDate }}</td>
-            <td>{{ pilot.country }}</td>
+            <td>
+              <country-flag :country=pilot.country.toLowerCase() size='small'/>
+            </td>
           </tr>
         </tbody>
       </table>
