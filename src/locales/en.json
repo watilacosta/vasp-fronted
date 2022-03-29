@@ -7,6 +7,13 @@
   },
   "footer": "Vasp Virtual Airlines - since 2008",
   "partners": "Meet our Partners",
+  "join-us": {
+    "firstName": "Name",
+    "lastName": "Last Name",
+    "country": "Country",
+    "birthdate": "Birthdate",
+    "btnSignIn": "Join us"
+  },
   "home-page": {
     "va-name": "Vasp Virtual Airlines",
     "slogan": "Travel well, Travel Vasp Virtual",

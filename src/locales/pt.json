@@ -7,6 +7,13 @@
   },
   "footer": "Vasp Linhas Aéreas Virtuais - desde 2008",
   "partners": "Conheça nossos parceiros",
+  "join-us": {
+    "firstName": "Nome",
+    "lastName": "Sobrenome",
+    "country": "País",
+    "birthdate": "Data de Nascimento",
+    "btnSignIn": "Enviar"
+  },
   "home-page": {
     "va-name": "Vasp Linhas Aéreas Virtuais",
     "slogan": "Viaje bem, Viaje Vasp Virtual",

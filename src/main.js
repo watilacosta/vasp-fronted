@@ -5,6 +5,7 @@ import "bootstrap/dist/js/bootstrap.js"
 import "bootstrap/dist/css/bootstrap.min.css"
 import Datepicker from '@vuepic/vue-datepicker';
 import '@vuepic/vue-datepicker/dist/main.css'
+import Swal from 'sweetalert2'
 
 import router from './router'
 import store from './store'
@@ -15,4 +16,5 @@ createApp(App)
   .use(store)
   .use(i18n)
   .component('Datepicker', Datepicker)
+  .component('Swal', Swal)
   .mount('#app')

@@ -2,22 +2,22 @@
   <h1 class="display-6 text-muted text-center mb-4">{{ $t('join-us-page.title') }}</h1>
   <form class="row g-3">
     <div class="col-md-6">
-      <label for="d0FirstName" class="form-label">First Name</label>
+      <label for="d0FirstName" class="form-label">{{ $t('join-us.firstName') }}</label>
       <input type="text" class="form-control" id="d0FirstName" name="d0"
         v-model="d0">
     </div>
 
     <div class="col-md-6">
-      <label for="d1LastName" class="form-label">Last Name</label>
+      <label for="d1LastName" class="form-label">{{ $t('join-us.lastName') }}</label>
       <input type="text" class="form-control" id="d1LastName" name="d1"
         v-model="d1">
     </div>
 
     <div class="col-md-6">
-      <label for="d2Country" class="form-label">Country</label>
+      <label for="d2Country" class="form-label">{{ $t('join-us.country') }}</label>
       <select v-model="d2" class="form-select"
         aria-label="Default select example" id="d2Country" name="d2">
-        <option disabled value="">Select you country</option>
+        <option disabled value="">Select your country</option>
         <option v-for="(country, id) in countries" :key="id" :value="country.iso">
           {{ country.countryName }}
         </option>
@@ -25,8 +25,8 @@
     </div>
 
     <div class="col-md-6">
-      <label for="d3birthdate" class="form-label">Date of birth</label>
-      <vs-date id="d3birthdate" name="d3" placeholder="Date of birth"
+      <label for="d3birthdate" class="form-label">{{ $t('join-us.birthdate') }}</label>
+      <vs-date id="d3birthdate" name="d3" placeholder="Select your birthdate"
         v-model="d3" />
     </div>
 
@@ -50,7 +50,7 @@
 
     <div class="col-12">
       <button type="submit" class="btn btn-primary"
-        @click.prevent="addNewPilot()">Sign in</button>
+        @click.prevent="addNewPilot()">{{ $t('join-us.btnSignIn') }}</button>
     </div>
   </form>
 </template>
