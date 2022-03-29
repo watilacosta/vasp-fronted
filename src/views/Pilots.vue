@@ -8,6 +8,7 @@
             <th scope="col">{{ $t('page-pilots.table.th.callsign') }}</th>
             <th scope="col">{{ $t('page-pilots.table.th.name') }}</th>
             <th scope="col">{{ $t('page-pilots.table.th.rating') }}</th>
+            <th scope="col">Score Rating</th>
             <th scope="col">IVAO</th>
             <th scope="col">VATSIM</th>
             <th scope="col">{{ $t('page-pilots.table.th.join-date') }}</th>
@@ -23,6 +24,9 @@
             <td>
               <img class="image-rating" height="20" width="50"
                 :src="pilot.imageRating" :title="pilot.pilotRating" />
+            </td>
+            <td>
+              <span class="badge bg-success">{{ pilot.UesvaScoreRating }}</span>
             </td>
             <td>{{ pilot.ivao }}</td>
             <td>{{ pilot.vatsim }}</td>
