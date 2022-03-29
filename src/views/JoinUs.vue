@@ -113,10 +113,24 @@ export default {
         const response = await pilots.addPilot(this.pilot)
 
         if(response.data.ernor == 0) {
-          alert('Dados enviados com sucesso! Acesse seu email para confirmar os dados.')
+          this.$swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: 'Dados enviados com sucesso!',
+            text: 'Acesse seu email para confirmar sua inscrição.',
+            showConfirmButton: false,
+            timer: 3000
+          })
+
           this.$router.push('/')
         } else {
-          alert(`Verifique os dados e tente novamente: ${response.data.result}`)
+          this.$swal.fire({
+            icon: 'error',
+            title: response.data.result,
+            text: 'Verifique os dados e tente novamente...',
+            timer: 3000
+          })
+
           this.$router.push('/join-us')
         }
       } catch (error) {

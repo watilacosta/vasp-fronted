@@ -10,6 +10,7 @@
 import VsFooter from './components/vs-footer.vue'
 import VsNavbar from './components/vs-navbar.vue'
 
+
 export default {
   components: {VsNavbar, VsFooter}
 }

@@ -5,16 +5,22 @@ import "bootstrap/dist/js/bootstrap.js"
 import "bootstrap/dist/css/bootstrap.min.css"
 import Datepicker from '@vuepic/vue-datepicker';
 import '@vuepic/vue-datepicker/dist/main.css'
-import Swal from 'sweetalert2'
+import VueSweetalert2 from 'vue-sweetalert2';
+import 'sweetalert2/dist/sweetalert2.min.css';
 
 import router from './router'
 import store from './store'
 import i18n from './i18n'
 
+const sweetAlertOptions = {
+  confirmButtonColor: '#0484bc',
+  cancelButtonColor: '#c0c064',
+};
+
 createApp(App)
   .use(router)
   .use(store)
   .use(i18n)
+  .use(VueSweetalert2, sweetAlertOptions)
   .component('Datepicker', Datepicker)
-  .component('Swal', Swal)
   .mount('#app')
