@@ -2,7 +2,7 @@
   <Datepicker
     v-model="date"
     :enableTimePicker="false"
-    locale="br"
+    locale="us"
     autoApply
     required />
 </template>

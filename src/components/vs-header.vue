@@ -8,7 +8,7 @@
             <h1 class="mb-3">{{ $t('home-page.va-name') }}</h1>
             <h4 class="mb-3">{{ $t('home-page.slogan') }}</h4>
             <div class="d-grid gap-2 col-8 mx-auto">
-              <router-link to="https://www.uesva.com/new/pilot"
+              <router-link to="/join-us"
                 class="btn btn-light btn-lg mt-4"
                 role="button">{{ $t('home-page.btn-join') }}</router-link>
             </div>
@@ -27,12 +27,12 @@ export default {
 </script>
 <style scoped>
   .mask {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.2);
     height: 300px;
     margin-top: 2.5rem;
   }
   .bg-image {
-    background-image: url('../assets/images/cover.jpg');
+    background-image: url('../assets/images/banner_vasp.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
