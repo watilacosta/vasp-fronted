@@ -7,6 +7,9 @@
   },
   "footer": "Vasp Linhas Aéreas Virtuais - desde 2008",
   "partners": "Conheça nossos parceiros",
+  "navbar": {
+    "pilot-area": "Área do Piloto"
+  },
   "join-us": {
     "firstName": "Nome",
     "lastName": "Sobrenome",
@@ -74,5 +77,8 @@
   },
   "join-us-page": {
     "title": "Inscreva-se"
+  },
+  "pilot-area": {
+    "title": "Área do Piloto"
   }
 }

@@ -7,6 +7,9 @@
   },
   "footer": "Vasp Virtual Airlines - since 2008",
   "partners": "Meet our Partners",
+  "navbar": {
+    "pilot-area": "Pilot Area"
+  },
   "join-us": {
     "firstName": "Name",
     "lastName": "Last Name",
@@ -74,5 +77,8 @@
   },
   "join-us-page": {
     "title": "Join as a pilot"
+  },
+  "pilot-area": {
+    "title": "Pilot Area"
   }
 }

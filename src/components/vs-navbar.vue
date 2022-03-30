@@ -37,8 +37,11 @@
             src="../assets/images/icons/us.png"
             class=""
            alt="bandeira dos eua"/>
-          <router-link to="/join-us" class="btn btn-sm btn-info text-white ms-3" type="button">
+          <router-link to="/join-us" class="btn btn-sm btn-info text-white ms-2" type="button">
             {{ $t('home-page.btn-join') }}
+          </router-link>
+          <router-link to="/pilot-area" class="btn btn-sm btn-outline-dark ms-1" type="button">
+            {{ $t('navbar.pilot-area') }}
           </router-link>
         </div>
       </div>
