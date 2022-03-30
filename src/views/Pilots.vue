@@ -2,7 +2,7 @@
   <div class="pilots">
     <h1 class="display-6 text-muted text-center mb-4">{{ $t('page-pilots.title') }}</h1>
     <div class="table-responsive">
-      <table class="table table-bordered table-hover table-striped">
+      <table class="table table-bordered table-hover table-striped table-sm">
         <thead class="table-dark">
           <tr class="text-center">
             <th scope="col">{{ $t('page-pilots.table.th.callsign') }}</th>

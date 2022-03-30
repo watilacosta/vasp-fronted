@@ -40,14 +40,20 @@
         </div>
       </div>
     </div>
+
+    <div class="row">
+      <vs-pilot-flights></vs-pilot-flights>
+    </div>
   </div>
 </template>
 
 <script>
 import Statistics from '../services/statistics'
+import VsPilotFlights from '../components/vs-pilot-flights.vue'
 
 export default {
   name: 'Statistics',
+  components: { VsPilotFlights },
   data() {
     return {
       statistics: []
@@ -56,8 +62,6 @@ export default {
   async mounted() {
     const statistics = await Statistics.list()
     this.statistics = statistics.data.result
-
-    console.log(this.statistics)
   }
 }
 </script>
