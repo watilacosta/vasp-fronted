@@ -9,6 +9,7 @@
           <div class="card-body">
             <h5 class="card-title">{{ staff.callsign }} - {{ staff.name }}</h5>
             <p class="card-text">
+              <span class="me-2"><img :src="staff.img0" alt="" height="30"></span>
               {{ staff.title.toUpperCase() }}
             </p>
           </div>

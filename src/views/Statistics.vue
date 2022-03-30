@@ -44,16 +44,20 @@
     <div class="row">
       <vs-pilot-flights></vs-pilot-flights>
     </div>
+    <div class="row">
+      <vs-fleets></vs-fleets>
+    </div>
   </div>
 </template>
 
 <script>
 import Statistics from '../services/statistics'
 import VsPilotFlights from '../components/vs-pilot-flights.vue'
+import VsFleets from '../components/vs-fleets.vue'
 
 export default {
   name: 'Statistics',
-  components: { VsPilotFlights },
+  components: { VsPilotFlights, VsFleets },
   data() {
     return {
       statistics: []
@@ -66,5 +70,8 @@ export default {
 }
 </script>
 <style scoped>
-  
+  .statistics {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 </style>

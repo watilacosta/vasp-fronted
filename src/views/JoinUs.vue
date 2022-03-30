@@ -119,7 +119,7 @@ export default {
             title: 'Dados enviados com sucesso!',
             text: 'Acesse seu email para confirmar sua inscrição.',
             showConfirmButton: false,
-            timer: 3000
+            timer: 4000
           })
 
           this.$router.push('/')
@@ -128,7 +128,7 @@ export default {
             icon: 'error',
             title: response.data.result,
             text: 'Verifique os dados e tente novamente...',
-            timer: 3000
+            timer: 4000
           })
 
           this.$router.push('/join-us')
