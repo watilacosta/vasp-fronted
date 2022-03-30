@@ -1,6 +1,6 @@
 <template>
   <div class="map-destinations">
-    <h1 class="display-6 text-muted text-center my-4">Destinations</h1>
+    <h1 class="display-6 text-muted text-center my-4">{{ $t('map-destinations.title') }}</h1>
     <iframe
       src="https://uesva.com:3008/addons/iframe?uid=NnBvR3hPN0VvNVJ2QnZyZm8rRDVIUFo1T1dRQzQvanV3Z1NMbTRvSlpVQT0="
       scrolling="no"

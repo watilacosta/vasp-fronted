@@ -14,6 +14,9 @@
     "birthdate": "Birthdate",
     "btnSignIn": "Apply"
   },
+  "map-destinations": {
+    "title": "Destinations"
+  },
   "home-page": {
     "va-name": "Vasp Virtual Airlines",
     "slogan": "Travel well, Travel Vasp Virtual",
@@ -30,6 +33,7 @@
         "callsign": "Callsign",
         "name": "Name",
         "rating": "Rating",
+        "score-rating": "Score Rating",
         "join-date": "Join Date",
         "flight-hours": "Flight hours",
         "last-flight": "Last Flight",

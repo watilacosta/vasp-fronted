@@ -8,7 +8,7 @@
             <th scope="col">{{ $t('page-pilots.table.th.callsign') }}</th>
             <th scope="col">{{ $t('page-pilots.table.th.name') }}</th>
             <th scope="col">{{ $t('page-pilots.table.th.rating') }}</th>
-            <th scope="col">Score Rating</th>
+            <th scope="col">{{ $t('page-pilots.table.th.score-rating') }}</th>
             <th scope="col">IVAO</th>
             <th scope="col">VATSIM</th>
             <th scope="col">{{ $t('page-pilots.table.th.join-date') }}</th>
