@@ -18,5 +18,3 @@ export default {
   components: {VsHeader, VsPartners, VsOnlineFlights, VsAirlinesRank}
 }
 </script>
-,
-    VsAirlinesRank
