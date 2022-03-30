@@ -17,6 +17,9 @@
   "map-destinations": {
     "title": "Destinations"
   },
+  "flights-schedule": {
+    "title": "Flights Schedule"
+  },
   "home-page": {
     "va-name": "Vasp Virtual Airlines",
     "slogan": "Travel well, Travel Vasp Virtual",

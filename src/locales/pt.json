@@ -17,6 +17,9 @@
   "map-destinations": {
     "title": "Destinos"
   },
+  "flights-schedule": {
+    "title": "Horários de Voo"
+  },
   "home-page": {
     "va-name": "Vasp Linhas Aéreas Virtuais",
     "slogan": "Viaje bem, Viaje Vasp Virtual",
