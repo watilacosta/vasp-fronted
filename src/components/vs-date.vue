@@ -3,6 +3,7 @@
     v-model="date"
     :enableTimePicker="false"
     locale="us"
+    :yearRange="[1920, 2022]"
     autoApply
     required />
 </template>
@@ -15,7 +16,7 @@ export default {
     const date = ref('')
 
     return {
-      date,
+      date
     }
   }
 }

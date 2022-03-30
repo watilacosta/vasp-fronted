@@ -8,7 +8,9 @@
           <img :src="staff.img1" class="card-img-top" alt="imagem do staff" >
           <div class="card-body">
             <h5 class="card-title">{{ staff.callsign }} - {{ staff.name }}</h5>
-            <p class="card-text">{{ staff.title.toUpperCase() }}</p>
+            <p class="card-text">
+              {{ staff.title.toUpperCase() }}
+            </p>
           </div>
           <div class="card-footer">
             <small class="text-muted">{{ staff.staffMail }}</small>
