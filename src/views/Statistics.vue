@@ -40,13 +40,8 @@
         </div>
       </div>
     </div>
-
-    <div class="row">
-      <vs-pilot-flights></vs-pilot-flights>
-    </div>
-    <div class="row">
-      <vs-fleets></vs-fleets>
-    </div>
+    <vs-fleets></vs-fleets>
+    <vs-pilot-flights></vs-pilot-flights>
   </div>
 </template>
 

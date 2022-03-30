@@ -3,8 +3,8 @@
     <vs-header></vs-header>
     <vs-partners></vs-partners>
     <vs-online-flights></vs-online-flights>
-    <vs-map-destinations></vs-map-destinations>
     <vs-airlines-rank></vs-airlines-rank>
+    <vs-map-destinations></vs-map-destinations>
   </div>
 </template>
 

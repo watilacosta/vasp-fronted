@@ -1,5 +1,5 @@
 <template>
-  <h1 class="display-6 text-muted text-center mb-4">Pilots Flights Months</h1>
+  <h1 class="display-6 text-muted text-center">Pilots Flights Months</h1>
     <div class="row">
       <div class="table-responsive">
         <table class="table table-bordered table-hover table-striped table-sm">
