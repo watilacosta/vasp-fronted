@@ -6,7 +6,6 @@ export default {
   },
 
   addPilot: (pilot) => {
-    console.log(pilot)
     return http.post(`?method=addPilot&idVA=y2NdPcvKrxE%3D&
       d0=${pilot.firstName}&
       d1=${pilot.lastName}&
