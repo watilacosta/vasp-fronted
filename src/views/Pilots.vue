@@ -31,7 +31,7 @@
             <td>{{ pilot.ivao }}</td>
             <td>{{ pilot.vatsim }}</td>
             <td>{{ pilot.dataAirline.registeredDate }}</td>
-            <td>{{ pilot.dataAirline.totalHoursFlights }}</td>
+            <td>{{ pilot.dataAirline.totalHoursAditionalsAndFlights }}</td>
             <td>{{ pilot.dataAirline.lastFlightDate }}</td>
             <td>
               <country-flag :country=pilot.country.toLowerCase() size='small'/>
