@@ -5,6 +5,7 @@
         <table class="table table-bordered table-hover table-striped table-sm">
           <thead class="table-dark">
             <tr class="text-center">
+              <th scope="col">Callsign</th>
               <th scope="col">Name</th>
               <th scope="col">Current Month Flights</th>
               <th scope="col">Current Month Hours</th>
@@ -12,6 +13,7 @@
           </thead>
           <tbody>
             <tr class="text-center" v-for="(data, id) in pilotFlights" :key="id">
+              <td>{{ data.callsign}}</td>
               <td>{{ data.name}}</td>
               <td>{{ data.currentMonth.flights }}</td>
               <td>{{ data.currentMonth.hoursFlights }}</td>
