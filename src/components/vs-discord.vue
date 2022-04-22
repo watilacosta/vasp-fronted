@@ -1,6 +1,5 @@
 <template>
-  <div class="fleets">
-    <h1 class="display-6 text-muted text-center my-4">Fleets</h1>
+  <div class="discord mt-4">
     <iframe src="https://discord.com/widget?id=854006843169177620&theme=dark"
       width="250"
       height="400"

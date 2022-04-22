@@ -6,7 +6,7 @@
       <div class="col">
         <vs-flights-schedule></vs-flights-schedule>
       </div>
-      <div class="col">
+      <div class="col text-end mt-4">
         <vs-discord></vs-discord>
       </div>
     </div>
