@@ -2,7 +2,14 @@
   <div class="home">
     <vs-header></vs-header>
     <vs-partners></vs-partners>
-    <vs-flights-schedule></vs-flights-schedule>
+    <div class="row">
+      <div class="col">
+        <vs-flights-schedule></vs-flights-schedule>
+      </div>
+      <div class="col">
+        <vs-discord></vs-discord>
+      </div>
+    </div>
     <vs-online-flights></vs-online-flights>
     <vs-airlines-rank></vs-airlines-rank>
     <vs-map-destinations></vs-map-destinations>
@@ -16,6 +23,7 @@ import VsOnlineFlights from '../components/vs-online-flights.vue'
 import VsPartners from '../components/vs-partners.vue'
 import VsMapDestinations from '../components/vs-map-destinations.vue'
 import VsFlightsSchedule from '../components/vs-flights-schedule.vue'
+import VsDiscord from '../components/vs-discord.vue'
 
 export default {
   name: 'Home',
@@ -25,7 +33,8 @@ export default {
     VsOnlineFlights,
     VsAirlinesRank,
     VsMapDestinations,
-    VsFlightsSchedule
+    VsFlightsSchedule,
+    VsDiscord
   }
 }
 </script>
