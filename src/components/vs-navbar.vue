@@ -21,6 +21,7 @@
           <div class="navbar-nav">
             <router-link to="/" class="nav-link">{{ $t('menus.home') }}</router-link>
             <router-link to="/pilots" class="nav-link">{{ $t('menus.pilots') }}</router-link>
+						<router-link to="/fleets" class="nav-link">{{ $t('menus.fleets') }}</router-link>
             <router-link to="/staff" class="nav-link">Staff</router-link>
             <router-link to="/statistics" class="nav-link">{{ $t('menus.statistics') }}</router-link>
             <router-link to="/rules" class="nav-link">{{ $t('menus.rules') }}</router-link>
@@ -40,6 +41,7 @@
           <router-link to="/join-us" class="btn btn-sm btn-info text-white ms-3" type="button">
             {{ $t('home-page.btn-join') }}
           </router-link>
+          <a href="https://vasp-dov.herokuapp.com/users/sign_in" target="_blank" class="btn btn-sm btn-secondary text-white ms-1">Área do Piloto</a>
         </div>
       </div>
     </div>

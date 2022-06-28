@@ -3,7 +3,8 @@
     "home": "Início",
     "pilots": "Pilotos",
     "statistics": "Estatísticas",
-    "rules": "Regras & Regulamentos"
+    "rules": "Regras & Regulamentos",
+    "fleets": "Frota"
   },
   "footer": "Vasp Virtual - desde 2008",
   "partners": "Conheça nossos parceiros",
@@ -77,5 +78,8 @@
   },
   "join-us-page": {
     "title": "Inscreva-se"
+  },
+  "fleets-page": {
+    "title": "Nossa Frota"
   }
 }

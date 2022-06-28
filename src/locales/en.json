@@ -3,7 +3,8 @@
     "home": "Home",
     "pilots": "Pilots",
     "statistics": "Statistics",
-    "rules": "VA Rules & Regulation"
+    "rules": "VA Rules & Regulation",
+    "fleets": "Fleets"
   },
   "footer": "Vasp Virtual - since 2008",
   "partners": "Meet our Partners",
@@ -77,5 +78,8 @@
   },
   "join-us-page": {
     "title": "Join as a pilot"
+  },
+  "fleets-page": {
+    "title": "Our Fleets"
   }
 }
